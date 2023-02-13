@@ -1,0 +1,28 @@
+
+<%= form_with(model: list) do |form| %>
+  <% if list.errors.any? %>
+    <div style="color: red" class= 'errors'>
+      <ul>
+        <% list.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+  <br>
+
+  <div class= 'show'>
+    <%= form.label :description, style: "display: block" %> <%= form.text_field :description %>
+  </div>
+  
+  <br>
+
+  <div  class= 'show'>
+    <%= form.label :completed, style: "display: block" %> <%= form.check_box :completed %>
+  </div>
+  <br>
+
+  <div>
+    <%= form.submit "Submit", class: 'btn btn btn-secondary ' %>
+  </div>
+<% end %>

@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <title>Planner : TODO</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    <%= javascript_importmap_tags %>
+  </head>
+
+
+  <body>
+  <%= render "lists/navbar" %>
+  <%= video_tag "coffee.mp4",autoplay: :autoplay, loop: :loop, muted: :muted, class: "background_video"%>
+  <div class="container" >
+    <%= render "lists/navbar" %>
+    <div class ="text-over-video">
+        <%= render "lists/flash" %>
+        <%= yield %>
+      </div>
+    </div>
+</body>
+</html>

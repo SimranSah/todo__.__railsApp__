@@ -1,0 +1,4 @@
+[ZoneTransfer]
+ZoneId=3
+ReferrerUrl=https://gitforwindows.org/
+HostUrl=https://objects.githubusercontent.com/github-production-release-asset-2e65be/23216272/9f52f8e4-769e-4307-88b1-eea7ab1f05ca?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20230208%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230208T084428Z&X-Amz-Expires=300&X-Amz-Signature=8be0dd1023e10ce64c8649f8ee846c7d0ee16005c8d86e5c8353b4997a9a865c&X-Amz-SignedHeaders=host&actor_id=52495997&key_id=0&repo_id=23216272&response-content-disposition=attachment%3B%20filename%3DGit-2.39.1-64-bit.exe&response-content-type=application%2Foctet-stream
