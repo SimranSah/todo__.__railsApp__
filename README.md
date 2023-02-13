@@ -1,24 +1,10 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This a rails application for a todo list.
 
-Things you may want to cover:
+On the homepage we can display the to do list .Along with the option to update, redo and deleting the item.
 
-* Ruby version
+Along with the separte redirections for show and add functionalities.
 
-* System dependencies
+It has the basic CRUD Operations with validations. Along with Boostrap ,CSS AND Jquery for views.
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
