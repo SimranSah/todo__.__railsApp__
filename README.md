@@ -2,7 +2,7 @@
 
 This a rails application for a todo list.
 
-On the homepage we can display the to do list .Along with the option to update, redo and deleting the item.
+On the homepage we can display the to do list .Along with the options to update, redo and deleting the item.
 
 Along with the separte redirections for show and add functionalities.
 
